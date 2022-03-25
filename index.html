@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ojo Lali</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#banner-img {
+    min-height : 200px;
+    background : url(assets/image/bk.png) no-repeat 0px -100px;
+    -webkit-background-size :cover;
+    background-position : center center
+    width : 100%;
+    height : 1000px;
+    background-color : black;
+    }
+
+</style>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div id="pack">
+            <h1> <dfn>OJO LALI</dfn> </h1>
+        </div>
+            <nav>
+                <ul>
+                    <li>
+                        <form class="form">
+                            <input type="search" placeholder="enter search...">
+                            <button class="buttonsearch">search</button>
+                        </form></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                              <button class="dropbtn" onclick="myFunction()">Fiture
+                                <i class="fa fa-caret-down"></i>
+                              </button>
+                              <div class="dropdown-content" id="myDropdown">
+                                        <a href="#">Daily login</a>
+                                        <a href="#">Jadwal</a>
+                                        <a href="#">Profile</a>
+                                        <a href="#">Cari Teman</a>
+                                        <a href="#">Game</a>
+                                        <a href="#">Kalkulator</a>
+                                        <a href="#">Pengaturan</a>
+                                        <a href="#">Jam</a>
+                                        <a href="#">Share</a>
+                              </div>
+                         </div>
+                    </li>
+                    <li><a href="#tentangkami">About Us</a></li>
+                </ul>
+            </nav>
+    </div>
+</header>
+
+<main>
+    <div id="content">
+<section id="banner-img">
+    <div class="banner-text">
+        <h1><dfn>Ojo Lali</dfn></h1>
+        <p><dfn>Kami Bantu Ingat!!</dfn></p>
+     <div>
+            <img src="assets/image/logops.png" class="image">
+     </div>
+     </div>
+</section>
+<article>
+        <section id="fitur" class="card">
+            <div class="container">
+                <h1><dfn>Fitur</dfn></h1>
+            </div>
+        </section>
+<section id="boxes">
+    <div class="container">
+        <div class="flex-container-column ">
+            <div class="flex-container-row button" >
+                <div>
+                        <img src="assets/image/dailylogin.png" class="featured-image">
+                            <h3>Daily Login</h3>
+                                <p>Yuk kita Login Hari ini!!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/logobk.png" class="featured-image">
+                            <h3>Jadwal</h3>
+                                <p>Yuk Kita Lihat Jadwal Kita!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/logoprf.png" class="featured-image">
+                            <h3>Profile</h3>
+                                <p>Ini Profile Kamu!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/logotm.png" class="featured-image">
+                            <h3>Cari Teman</h3>
+                                <p>Yuk Kita Cari Teman!!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/logogm.png" class="featured-image">
+                            <h3>game</h3>
+                                <p>Mainkan Game Menarik!!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/kalkulator.png" class="featured-image">
+                            <h3>Kalkulator</h3>
+                                <p>kami bantu hitung!!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/setting.png" class="featured-image">
+                            <h3>Pengaturan</h3>
+                                <p>Pengaturan disini!!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/jam.png" class="featured-image">
+                            <h3>Jam</h3>
+                                <p>Jam disini!!!</p>
+                    </div>
+                    <div>
+                        <img src="assets/image/logosh.png" class="featured-image">
+                            <h3>Share</h3>
+                                <p>Bagikan Di Temoat Lain!!!</p>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+</article>
+</div>
+<article>
+    <aside>
+    <div class="card">
+        <div class="container" id = "tentangkami">
+           <h1><dfn>About Us</dfn></h1>
+            </div>
+    </div>
+            <section>
+                <div class="flex-container-column">
+                    <div class="flex-container-row button">
+                            <div class="container">
+                                <img src="assets/image/foto.png"class="profile image">
+                                    <h2>Wisnu Prawira</h2>
+                                   <table>
+
+                                    <tr>
+                                        <th>Tanggal Lahir</th>
+                                        <td>08 Juni 2000</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>wisnuprawira2000@gmail.com<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Telepon</th>
+                                        <td>+628 5880127783</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="container">
+                                <img src="assets/image/foto.png"class="profile image">
+                                    <h2>Wisnu Prawira</h2>
+                                   <table>
+
+                                    <tr>
+                                        <th>Tanggal Lahir</th>
+                                        <td>08 Juni 2000</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>wisnuprawira2000@gmail.com<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Telepon</th>
+                                        <td>+628 5880127783</td>
+                                    </tr>
+                                </table>
+                            </div><div class="container">
+                                <img src="assets/image/foto.png"class="profile image">
+                                    <h2>Wisnu Prawira</h2>
+                                   <table>
+
+                                    <tr>
+                                        <th>Tanggal Lahir</th>
+                                        <td>08 Juni 2000</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>wisnuprawira2000@gmail.com<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Telepon</th>
+                                        <td>+628 5880127783</td>
+                                    </tr>
+                                </table>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </aside>
+</article>
+</main>
+<footer>
+<p>Ojo Lali Web &#169; 2020, Ojo Lali Indonesia</p>
+</footer>
+</body>
+</html>
